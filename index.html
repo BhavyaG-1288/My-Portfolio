@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- AOS (Animate On Scroll) Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="menu-icon" id="mobile-menu">&#9776;</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#techskills">Tech Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a id="resume-btn" href="assets/Resume.pdf" download="assets/Resume.pdf">Resume</a></li>
+            <a href="www.linkedin.com/in/bhavya-gedala" target="_blank"><i class ="fab fa-linkedin"></i></a>
+            <a href="https://github.com/BhavyaG-1288" target="_blank"><i class ="fab fa-github"></i></a>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+    <section id="home">
+        <div class="text">
+            <h1>I'm Bhavya Gedala</h1>
+            <h3> A Web Developer</h3>
+        </div>
+        <div class ="image-container">
+        <img src ="assets/WhatsApp Image 2025-02-08 at 3.25.46 PM.jpeg" alt ="My Photo" width="500px" height="350px">
+        </div>
+    </section>
+
+    <section id ="about">
+            <div class ="about-text">
+                <h2>About Me</h2>
+                <p>Hi! I'm<strong>Bhavya Gedala</strong> and detail-oriented Web Engineer with foundational knowledge in web development.
+                    Proficient in HTML, CSS, JavaScript, Node.js,MongoDB. 
+                    Demonstrates strong problem-solving abilities and quick adaptability, with a commitment to delivering efficient and scalable web solutio Passionate about continuous learning and development.</p>
+                    <p>
+                        I am a fresher in the IT sector, transitioning from a different career with **strong problem-solving skills, 
+                        attention to detail, and a commitment to continuous learning**.
+                    </p>
+                    <a id ="resume-btn"href ="assets/Resume.pdf" download class="btn">Resume</a>
+            </div>
+            
+        </section>
+
+    <section id="techskills">
+        <h2>Tech Skills</h2>
+        <div class="skills-container">
+            <div class ="skill">
+                <img src="assets/html.jpg" alt="HTML">
+
+            </div>
+            <div class="skill">
+                <img src="assets/css.png" alt="CSS">
+
+            </div>
+            <div class="skill">
+                <img src="assets/js.jpg" alt="JavaScript">
+
+            </div>
+            <div class="skill">
+                <img src="assets/nodejs.jpg" alt="Node.js">
+
+            </div>
+            <div class="skill">
+                <img src="assets/mongodb.jpg" alt="MongoDB">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="assets/Project.jpg.png" alt="Grocery Store">
+                <h3>Online Grocery Store</h3>
+              <p>A dynamic e-commerce platform where users can browse products, add items to the cart, and purchase seamlessly.</p>
+                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+            <div class="project-links">
+                <a href="https://github.com/BhavyaG-1288/Order-On_Line-Project" target="_blank" class="btn">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/image1.png" alt="Fresher's World">
+            <img src="assets/image2.png" alt="Fresher's World">
+            <img src="assets/image3.png" alt="Fresher's World">
+            <h3>Fresher's World</h3>
+          <p>Fresher's World is Job Portal where you can find Jobs related to your education background.</p>
+            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript,Node.js,Express,MongoDB</p>
+        <div class="project-links">
+            <a href="https://github.com/BhavyaG-1288/Freshers-World" target="_blank" class="btn">GitHub</a>
+            <a href="" target="_blank"><i class ="fab fa-linkedin"></i></a>
+
+        </div>
+    </div>
+            </div>
+        
+    </section>
+
+  <!--Contacts-->
+  <section id ="contact">
+    <h2>Contact Me</h2>
+    <div class ="contact-container">
+        <div class ="contact-details">
+           <p > <i class="fa-solid fa-phone"></i>+91 9346831288</p>
+            <p><i class="fa-solid fa-location-dot"></i>Visakhapatnam,Andhra Pradesh.</p>
+            <p><i class="fa-solid fa-envelope"></i>gbhavya2017@gmail.com</p>
+        </div>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type ="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+</body>
+<script src="index.js"></script>
+</html>
