@@ -318,7 +318,7 @@ h3 {
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     max-width: 800px;
     margin: auto;
@@ -328,6 +328,7 @@ h3 {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     padding: 20px;
+    gap:30px
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
